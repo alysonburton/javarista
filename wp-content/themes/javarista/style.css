@@ -1,0 +1,21 @@
+/*
+Theme Name: Bear Necessities
+Theme URI: http://teolopez.com/bear-necessities
+Description: A WordPress Theme with the bare necessities to get started on a new project quickly..
+Author: teolopez
+Author URI: http://profiles.wordpress.org/teolopez
+Version: 1.0
+Tags: bare, naked, framework, template
+
+*/
+
+
+/* 
+Styles are located in folder name CSS file name bearstyle.css 
+----------------------------------------------------------------------*/
+
+@import url("css/foundation.css");
+@import url("css/normalize.css");
+
+
+
