@@ -1,13 +1,18 @@
-<?php get_header(); ?>
-
+<?php get_header();
+/*
+Template Name: Home Page
+*/
+?>
 <div id="container">
 	<div id="home">
-<<<<<<< HEAD
+
 		<h1 class="home"> Home </h1>
-=======
+
 		<h1 class="home"> Javarista </h1>
 		<h2>Javascript tutorials</h2>
->>>>>>> home_page
+		<?php the_content(); ?>
+		<?php echo "hello"; ?>
+
 
 	<?php if ( have_posts() ) : ?>
 		<?php else : ?>
@@ -47,8 +52,6 @@
 
 
 
-<<<<<<< HEAD
+
 <?php get_footer(); ?>
-=======
-<?php get_footer(); ?>
->>>>>>> home_page
+
