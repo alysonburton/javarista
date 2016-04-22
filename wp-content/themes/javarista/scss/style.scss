@@ -1,3 +1,9 @@
+/**
+ Theme name: Javarista
+Version: 1
+Author: Alyson and Jin-hee
+*/
+
 $dark: #292228;
 $yellow: #FDC503;
 $orange: #FF8800;
@@ -9,17 +15,11 @@ html {
 	background-color: $dark;
 }
 
-#home {
-	h1{
-	font-weight: 100;
-	color: white;
-	z-index: 10;
-	}
 
-canvas {
-	display: block;
-	width: 100%;
-	background-color: $purple; 
-}
-
-}
+@import 'home';
+@import 'about';
+@import 'tuts';
+@import 'header';
+@import 'footer';
+@import 'faqs';
+@import 'contact';

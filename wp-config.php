@@ -19,6 +19,7 @@
 define('DB_NAME', 'javarista');
 
 /** MySQL database username */
+<<<<<<< HEAD
 define('DB_USER', 'root');
 
 /** MySQL database password */
@@ -26,6 +27,15 @@ define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
+=======
+define('DB_USER', 'art405');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'javascript00admi');
+
+/** MySQL hostname */
+define('DB_HOST', 'javarista.ch2jxgpolnlr.us-west-2.rds.amazonaws.com');
+>>>>>>> home_page
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -68,7 +78,11 @@ $table_prefix  = 'wp_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
+<<<<<<< HEAD
 define('WP_DEBUG', false);
+=======
+define('WP_DEBUG', true);
+>>>>>>> home_page
 
 /* That's all, stop editing! Happy blogging. */
 
