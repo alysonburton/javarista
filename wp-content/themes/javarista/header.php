@@ -8,13 +8,14 @@
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap.min.css">
-         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap-theme.min.css">
-         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/style.css">
-         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
-        <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
-        <!-- add in roboto -->
-
-        <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/style.css;">
+        <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap-theme.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/style.css">
+        
+        <script src="<?php bloginfo( 'template_directory' );?>"/js/dat.gui.min.js></script>
+        <script src="<?php bloginfo( 'template_directory' );?>"/js/example.js></script>
+        <script src="<?php bloginfo( 'template_directory' );?>"/js/fss.min.js></script>
+        <script src="<?php bloginfo( 'template_directory' );?>"/js/prefixfree.min.js> </script>
         
         
 
@@ -23,14 +24,6 @@
 
     </head>
 
-    <body>
+    <body style="background-color: <?php the_field('background_color', 'option'); ?>">
 
-        <!-- <div class="row">
-            <div class="small-11 columns">
-            <header>
-                <div id="logo" class="logo_hide">
-                    <a href="<?php bloginfo('url'); ?>"><h1>
-                        <?php bloginfo('name'); ?>    
-                    </h1></a>
-                </div>
-            </header> -->
+ </header>
