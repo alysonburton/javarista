@@ -3,39 +3,22 @@
 Template Name: Home Page
 */
 ?>
-<!-- <div id="container">
-	<div id="home">
-	<canvas>
-<div class="row">
-            <div class="small-11 columns">
-            <header>
-                <div id="logo" class="logo_hide">
-                    <a href="<?php bloginfo('url'); ?>"><h1>
-                        <?php bloginfo('name'); ?>    
-                    </h1></a>
-                </div>
-          
-	<!- 	<h1 class="home"> Javarista </h1>
-		<h2>Javascript tutorials</h2>
-		 -->
-	<!-- </canvas> --> -->
 
-	<div id="container" class="container">
+
+<div id="container" class="container">
+	<h1>Javarista</h1>
       <div id="output" class="container">
-      <canvas width="1378" height="352" style="display: block;"></canvas></div>
-      <div id="vignette" class="overlay vignette">
+	      <div id="vignette" class="overlay vignette"></div>
+	      <div id="noise" class="overlay noise"></div>
+	      <div id="controls" class="controls" style="display:none"></div>
+
       </div>
-      <div id="noise" class="overlay noise">
-      </div>
-      <div id="ui" class="wrapper">
-        <header id="header" class="header">
-          
-        </header>
-        
-		
+  </div>
+
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"></iframe>
 
 
-	</div>
+
 	<div id="about"> <!-- about explaination -->
 		<h1 class="about"> About </h1>
 
@@ -61,7 +44,13 @@ Template Name: Home Page
 
 
 
+ <script src="<?php bloginfo('template_directory');?>/js/prefixfree.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/dat.gui.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/fss.min.js"></script>
+    <script src="<?php bloginfo('template_directory');?>/js/example.js"></script>
+  
 
+  </body>
 
 
 

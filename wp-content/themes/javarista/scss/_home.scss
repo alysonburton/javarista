@@ -12,9 +12,17 @@
 		font-weight: 400;
 		}
 	}
-
-canvas {
-	display: block;
-	width: 100%;
-	background-color: $purple; 
+.controls{
+    -webkit-font-smoothing: subpixel-antialiased;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.container {
+    width: 100%;
+    padding:0;
+}
+#output {
+	
+	height: 500px;
 }

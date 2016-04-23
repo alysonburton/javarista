@@ -12,18 +12,13 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/style.css">
         
-        <script src="<?php bloginfo( 'template_directory' );?>"/js/dat.gui.min.js></script>
-        <script src="<?php bloginfo( 'template_directory' );?>"/js/example.js></script>
-        <script src="<?php bloginfo( 'template_directory' );?>"/js/fss.min.js></script>
-        <script src="<?php bloginfo( 'template_directory' );?>"/js/prefixfree.min.js> </script>
-        
-        
+       
 
         <?php wp_head(); ?>
     
 
     </head>
 
-    <body style="background-color: <?php the_field('background_color', 'option'); ?>">
+    <body>
 
- </header>
+ 

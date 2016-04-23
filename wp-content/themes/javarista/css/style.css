@@ -18,9 +18,17 @@ body {
     font-size: 30px;
     font-weight: 400; }
 
-canvas {
-  display: block;
+.controls {
+  -webkit-font-smoothing: subpixel-antialiased;
+  position: absolute;
+  right: 20px;
+  top: 0; }
+
+.container {
   width: 100%;
-  background-color: #880064; }
+  padding: 0; }
+
+#output {
+  height: 500px; }
 
 /*# sourceMappingURL=style.css.map */

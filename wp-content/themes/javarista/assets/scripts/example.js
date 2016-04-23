@@ -364,12 +364,12 @@
     lightFolder = gui.addFolder('Light');
     exportFolder = gui.addFolder('Export');
 
-    // // Open folders
-    // uiFolder.open();
-    // renderFolder.open();
-    // // meshFolder.open();
-    // lightFolder.open();
-    // // exportFolder.open();
+    // Open folders
+    uiFolder.open();
+    renderFolder.open();
+    // meshFolder.open();
+    lightFolder.open();
+    // exportFolder.open();
 
     // Add UI Controls
     controller = uiFolder.add(UI, 'show');
