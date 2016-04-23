@@ -6,10 +6,13 @@ Template Name: Home Page
 
 
 <div id="container" class="container">
-	<h1>Javarista</h1>
       <div id="output" class="container">
 	      <div id="vignette" class="overlay vignette"></div>
 	      <div id="noise" class="overlay noise"></div>
+	      <div class="intro">
+	      <h1>Javarista</h1>
+	      <h2>Javascript tutorials for designers</h2>
+	      </div>
 	      <div id="controls" class="controls" style="display:none"></div>
 
       </div>
