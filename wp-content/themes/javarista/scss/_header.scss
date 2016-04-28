@@ -36,6 +36,7 @@
   background-color: transparent;
   box-shadow: none;
   padding-top: 18px;
+  z-index: 999;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -44,7 +45,7 @@
 
 .nav.navbar-nav.navbar-right li{
             a {
-            color: white;
+            // color: white;
             font-size: 18px;
             padding: 25px;
             /* Normal */
