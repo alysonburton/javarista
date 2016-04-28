@@ -7,6 +7,9 @@ body {
   font-family: roboto;
   background-color: #292228; }
 
+a:hover {
+  color: #F7551B; }
+
 #home h2 {
   font-size: 30px;
   font-weight: 400; }
@@ -43,27 +46,22 @@ body {
     font-size: 24px;
     color: white; }
 
-#site-navigation {
-  opacity: 0.4; }
-  #site-navigation :hover {
-    opacity: 0.8; }
-
 .navbar-default {
   background-color: #292228;
   background: #292228;
   border-color: transparent;
   font-family: 'roboto', sans-serif;
   font-weight: 100;
-  padding: 0 20px 0 20px; }
+  padding: 0 20px 0 20px;
+  opacity: .4; }
 
 .navbar-default .navbar-brand {
   color: white;
   font-size: 25px;
   margin-top: 10px;
   text-shadow: none; }
-
-.navbar-default .navbar-brand:hover {
-  color: #F7551B; }
+  .navbar-default .navbar-brand :hover {
+    color: #F7551B; }
 
 .navbar-default div.navbar-collapse {
   border-top: none;
@@ -89,7 +87,7 @@ body {
   padding: 25px;
   /* Normal */ }
   .nav.navbar-nav.navbar-right li a :hover {
-    color: white;
+    color: #F7551B;
     background-color: #F7551B; }
 
 .nav.navbar-nav.navbar-right > .active > a {

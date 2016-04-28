@@ -15,6 +15,9 @@ body {
 	background-color: $dark;
 }
 
+a:hover {
+	color: $redOrange;
+}
 
 @import 'home';
 @import 'about';

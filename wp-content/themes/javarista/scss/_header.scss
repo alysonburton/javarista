@@ -1,9 +1,4 @@
-#site-navigation {
-  opacity: 0.4;
-      :hover {
-        opacity: 0.8;
-      }
-}
+
 
 .navbar-default {
   background-color: $dark;
@@ -12,6 +7,7 @@
   font-family: 'roboto', sans-serif;
   font-weight: 100;
   padding: 0 20px 0 20px;
+  opacity: .4;
 }
 
 .navbar-default .navbar-brand {
@@ -19,10 +15,9 @@
   font-size: 25px;
   margin-top: 10px;
   text-shadow: none;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: $redOrange;
+    :hover {
+      color: $redOrange;
+    }
 }
 
 .navbar-default div.navbar-collapse{
@@ -54,7 +49,7 @@
             padding: 25px;
             /* Normal */
                 :hover {
-                  color: white;
+                  color: $redOrange;
                   background-color: $redOrange;
                           }
              }
