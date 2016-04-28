@@ -1,6 +1,13 @@
-<?php   if(function_exists('acf_add_options_page')) {
- 	acf_add_options_page('Options');
- }
+<?php
+	if (function_exists('acf_add_options_page')) {
+	acf_add_options_page('Options');
+}
+
+
+add_action( 'after_setup_theme', 'register_my_menu' );
+function register_my_menu() {
+  register_nav_menu( 'primary', 'My Main Menu' );
+}
 
 
 
