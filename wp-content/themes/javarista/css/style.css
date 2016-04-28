@@ -43,6 +43,7 @@ body {
     font-size: 24px;
     color: white; }
 
+<<<<<<< HEAD
 #about {
   height: 600px; }
   #about h1 {
@@ -51,5 +52,67 @@ body {
     color: #FF8800;
     text-align: center;
     margin: 200px auto; }
+=======
+#footer {
+  height: 100px;
+  clear: both;
+  font-family: 'roboto',Helvetica,Arial,sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  line-height: 100px; }
+
+.navbar-default {
+  background-color: #292228;
+  background: #292228;
+  border-color: transparent;
+  font-family: 'roboto', sans-serif;
+  font-weight: 100;
+  padding: 0 20px 0 20px; }
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  text-shadow: none; }
+
+.navbar-default .navbar-brand:hover {
+  color: #F7551B; }
+
+.navbar-default div.navbar-collapse {
+  border-top: none;
+  box-shadow: none; }
+
+.navbar-header {
+  height: 70px; }
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  padding-top: 18px; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white; }
+
+.nav.navbar-nav.navbar-right > li > a {
+  color: white;
+  font-size: 18px;
+  padding: 25px; }
+
+/* Normal */
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: #F7551B; }
+
+/* Hover */
+.nav.navbar-nav.navbar-right > .active > a {
+  color: white;
+  background-color: #F7551B; }
+
+/* Active */
+>>>>>>> ddaa73d43aa65e59363bece407f0bc2119cd463c
 
 /*# sourceMappingURL=style.css.map */
