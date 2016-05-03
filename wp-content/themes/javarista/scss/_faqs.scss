@@ -1,0 +1,54 @@
+.faq-title {
+	padding-top: 50px;
+}
+
+.faq-title h1 {
+	font-weight: 100;
+	font-size: 60px;
+	color: $redOrange;
+	text-align: center;
+	margin: 0;
+}
+
+.faq-title p {
+	font-weight: 100;
+}
+
+.faqs {
+	padding: 45px 30px 0 30px;
+}
+
+.panel-group .panel+.panel {
+    margin-top: 2px;
+}
+
+.panel {
+	padding: 0;
+	background-color: rgba(255,255,255,.6);
+}
+
+.panel-default,
+.panel-default > .panel-heading+.panel-collapse > .panel-body {
+    border-color: $dark;
+}
+
+.panel-default > .panel-heading {
+	background-image: none;
+	background-color: $redOrange;
+}
+
+.panel-title a:hover {
+	color: $dark;
+	text-decoration: none;
+}
+
+.panel h5 {
+	font-weight: 100;
+	color: white;
+    margin-bottom: 0;
+}
+
+.panel p {
+	font-weight: 100;
+	color: $dark;
+}

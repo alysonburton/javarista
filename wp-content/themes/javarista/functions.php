@@ -10,14 +10,13 @@ function register_my_menu() {
 }
 
 
-
-  
+require_once('wp_bootstrap_navwalker.php'); 
 
 
 /*-----------------------------------------------------------------------------------*/
 /*	Theme Setup
 /*-----------------------------------------------------------------------------------*/
-
+/*
 add_action( 'after_setup_theme', 'the_theme_setup' );
 function the_theme_setup()
 {
@@ -84,3 +83,4 @@ function the_theme_setup()
 		add_action( 'admin_notices', $c = create_function( '', 'echo "' . addcslashes( $msg, '"' ) . '";' ) );
 	}
 }
+*/

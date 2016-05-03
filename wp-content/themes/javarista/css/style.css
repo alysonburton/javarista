@@ -5,7 +5,8 @@ Author: Alyson and Jin-hee
 */
 body {
   font-family: roboto;
-  background-color: #292228; }
+  background-color: #292228;
+  color: white; }
 
 a:hover {
   color: #F7551B; }
@@ -50,19 +51,20 @@ a:hover {
 .navbar-default {
   background-color: #292228;
   background: #292228;
-  border-color: transparent;
+  border: none;
+  box-shadow: none;
   font-family: 'roboto', sans-serif;
   font-weight: 100;
-  padding: 0 20px 0 20px;
-  opacity: .4; }
+  padding: 0 20px 0 20px; }
 
 .navbar-default .navbar-brand {
   color: white;
   font-size: 25px;
   margin-top: 10px;
   text-shadow: none; }
-  .navbar-default .navbar-brand :hover {
-    color: #F7551B; }
+
+.navbar-default .navbar-brand:hover {
+  color: #F7551B; }
 
 .navbar-default div.navbar-collapse {
   border-top: none;
@@ -83,17 +85,20 @@ a:hover {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white; }
 
-.nav.navbar-nav.navbar-right li a {
-  font-size: 18px;
-  padding: 25px;
-  /* Normal */ }
-  .nav.navbar-nav.navbar-right li a :hover {
-    color: #F7551B;
+.nav.navbar-nav.navbar-right li {
+  /* Normal */
+  /* Hover */ }
+  .nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-size: 18px;
+    padding: 25px; }
+  .nav.navbar-nav.navbar-right li a:hover {
+    color: white;
     background-color: #F7551B; }
 
 .nav.navbar-nav.navbar-right > .active > a {
-  color: white;
-  background-color: #F7551B; }
+  background-color: #FDC503;
+  background-image: none; }
 
 /* Active */
 #footer {
@@ -104,5 +109,49 @@ a:hover {
   color: white;
   text-align: center;
   line-height: 100px; }
+
+.faq-title {
+  padding-top: 50px; }
+
+.faq-title h1 {
+  font-weight: 100;
+  font-size: 60px;
+  color: #F7551B;
+  text-align: center;
+  margin: 0; }
+
+.faq-title p {
+  font-weight: 100; }
+
+.faqs {
+  padding: 45px 30px 0 30px; }
+
+.panel-group .panel + .panel {
+  margin-top: 2px; }
+
+.panel {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.6); }
+
+.panel-default,
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-color: #292228; }
+
+.panel-default > .panel-heading {
+  background-image: none;
+  background-color: #F7551B; }
+
+.panel-title a:hover {
+  color: #292228;
+  text-decoration: none; }
+
+.panel h5 {
+  font-weight: 100;
+  color: white;
+  margin-bottom: 0; }
+
+.panel p {
+  font-weight: 100;
+  color: #292228; }
 
 /*# sourceMappingURL=style.css.map */
