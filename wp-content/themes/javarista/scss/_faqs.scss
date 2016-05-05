@@ -15,7 +15,30 @@
 }
 
 .faqs {
-	padding: 45px 30px 0 30px;
+	padding-top: 45px;
+}
+
+@media only screen and (max-width : 767px) {
+  .faqs {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .faqs {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .faqs {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .faqs {
+    width: 60%;
+  }
 }
 
 .panel-group .panel+.panel {

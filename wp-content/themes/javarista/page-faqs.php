@@ -15,7 +15,7 @@ Template Name: FAQ Page
 </div>
 
 
-<div class="container faqs">
+<div class="container center-block faqs">
 	<?php if (have_posts()) : while (have_posts()) : the_post();
 	echo '<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">';
 	$i=1;

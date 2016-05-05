@@ -124,8 +124,20 @@ a:hover {
   font-weight: 100; }
 
 .faqs {
-  padding: 45px 30px 0 30px; }
+  padding-top: 45px; }
 
+@media only screen and (max-width: 767px) {
+  .faqs {
+    width: 90%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .faqs {
+    width: 80%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .faqs {
+    width: 70%; } }
+@media only screen and (min-width: 1200px) {
+  .faqs {
+    width: 60%; } }
 .panel-group .panel + .panel {
   margin-top: 2px; }
 
@@ -153,5 +165,61 @@ a:hover {
 .panel p {
   font-weight: 100;
   color: #292228; }
+
+.contact-title {
+  padding-top: 50px; }
+
+.contact-title h1 {
+  font-weight: 100;
+  font-size: 60px;
+  color: #FDC503;
+  text-align: center;
+  margin: 0; }
+
+.contact-title p {
+  font-weight: 100; }
+
+.form {
+  padding-top: 45px; }
+
+@media only screen and (max-width: 767px) {
+  .form {
+    width: 80%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .form {
+    width: 70%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .form {
+    width: 60%; } }
+@media only screen and (min-width: 1200px) {
+  .form {
+    width: 50%; } }
+.gform_wrapper ul {
+  list-style: none; }
+
+.gform_wrapper label {
+  font-weight: 100;
+  color: white; }
+
+.gfield_required {
+  color: #FDC503;
+  padding-left: 3px; }
+
+.ginput_container input, .ginput_container select, .ginput_container textarea {
+  border: 1px solid #FDC503;
+  margin-bottom: 25px;
+  width: 100%; }
+
+.gform_button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  background-color: #FDC503; }
+
+.gform_button:hover, .gform_button:focus {
+  color: white;
+  background-color: #F7551B;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
