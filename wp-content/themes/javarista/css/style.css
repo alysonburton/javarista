@@ -3,6 +3,18 @@
 Version: 1
 Author: Alyson and Jin-hee
 */
+h1 {
+  font-family: roboto;
+  color: #F7551B;
+  font-weight: 100;
+  font-size: 46px; }
+
+h4 {
+  font-family: roboto;
+  color: #FF8800;
+  font-weight: 400;
+  font-size: 15px; }
+
 body {
   font-family: roboto;
   background-color: #292228; }

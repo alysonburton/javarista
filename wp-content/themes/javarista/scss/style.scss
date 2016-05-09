@@ -10,6 +10,19 @@ $orange: #FF8800;
 $redOrange: #F7551B;
 $purple: #880064;
 
+h1{
+	font-family: roboto;
+	color: $redOrange;
+	font-weight: 100;
+	font-size: 46px;
+}
+
+h4 {
+	font-family: roboto;
+	color: $orange;
+	font-weight: 400;
+	font-size: 15px;
+}
 body {
 	font-family: roboto;
 	background-color: $dark;
