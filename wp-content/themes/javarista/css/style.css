@@ -26,27 +26,51 @@ a:hover {
   padding: 0; }
 
 #output {
-  margin-top: -40px;
-  height: 800px; }
+  margin-top: -20px;
+  height: 800px;
+  position: relative; }
 
 .intro {
-  margin: -238px -180px;
   text-align: center;
   position: absolute;
-  height: 360px;
-  width: 400px;
-  left: 46%;
-  top: 50%; }
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 360px; }
   .intro h1 {
-    text-align: center;
+    font-weight: 100;
+    font-size: 100px; }
+  .intro h2 {
+    font-size: 24px; }
+
+#about {
+  width: 70%;
+  padding: 100px 0 120px 0;
+  text-align: center; }
+  #about h1 {
     font-weight: 100;
     font-size: 100px;
+    color: #FDC503; }
+  #about p {
+    font-weight: 100; }
+
+#tuts {
+  padding: 100px 0 120px 0;
+  text-align: center; }
+  #tuts h1 {
+    font-weight: 100;
+    font-size: 100px;
+    color: #FF8800; }
+  #tuts p {
+    font-weight: 100;
     color: white; }
-  .intro h2 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 24px;
-    color: white; }
+  #tuts a {
+    text-decoration: none; }
+    #tuts a :hover {
+      color: #FF8800; }
 
 .navbar-default {
   background-color: #292228;

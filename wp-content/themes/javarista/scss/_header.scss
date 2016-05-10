@@ -44,15 +44,15 @@
 }
 
 .nav.navbar-nav.navbar-right li {
-            a {
-            color: white;
-            font-size: 18px;
-            padding: 25px;
-            } /* Normal */
-            a:hover {
-            color: white;
-            background-color: $redOrange;
-            } /* Hover */
+  a {
+    color: white;
+    font-size: 18px;
+    padding: 25px;
+  } /* Normal */
+  a:hover {
+    color: white;
+    background-color: $redOrange;
+  } /* Hover */
 }
 
 .nav.navbar-nav.navbar-right > .active > a {

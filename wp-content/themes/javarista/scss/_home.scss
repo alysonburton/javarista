@@ -1,44 +1,77 @@
 #home {
-	
-		
 	h2{
 		font-size: 30px;
 		font-weight: 400;
-		}
 	}
+}
+
 .controls{
     -webkit-font-smoothing: subpixel-antialiased;
     position: absolute;
     right: 20px;
     top: 0;
 }
+
 .container {
     width: 100%;
     padding:0;
 }
 
 #output {
-	margin-top: -40px;
+	margin-top: -20px;
 	height: 800px;
+    position: relative;
 }
+
 .intro {
-    margin: -238px -180px;
     text-align: center;
     position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     height: 360px;
-    width: 400px;
-    left: 46%;
-    top: 50%;
     h1 {
-    	text-align: center;
     	font-weight: 100;
-	font-size: 100px;
-	color: white;
+    	font-size: 100px;
     }
     h2{
-    	text-align: center;
-    	font-weight: 400;
-	font-size: 24px;
-	color: white;
+    	font-size: 24px;
     }
+}
+
+#about {
+    width: 70%;
+    padding: 100px 0 120px 0;
+    text-align: center;
+    h1 {
+        font-weight: 100;
+        font-size: 100px;
+        color: $yellow;
     }
+    p {
+        font-weight: 100;
+    }
+}
+
+#tuts {
+    padding: 100px 0 120px 0;
+    text-align: center;
+    h1 {
+        font-weight: 100;
+        font-size: 100px;
+        color: $orange;
+    }
+    p {
+        font-weight: 100;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        :hover {
+            color: $orange;
+        }
+    }
+}
