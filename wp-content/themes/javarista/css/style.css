@@ -65,9 +65,11 @@ p {
   height: 360px; }
   .intro h1 {
     font-weight: 100;
-    font-size: 100px; }
+    font-size: 100px;
+    color: white; }
   .intro h2 {
-    font-size: 24px; }
+    font-size: 24px;
+    color: white; }
 
 #about {
   width: 70%;
