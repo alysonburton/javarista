@@ -10,14 +10,20 @@ function register_my_menu() {
 }
 
 
+add_action( 'init', 'register_my_menu' );
+    function add_anchorclass( $anchorclass ) {
+        return preg_replace( '/<a /', '<a class="smoothScroll"', $anchorclass );
+    }
+add_filter( 'wp_nav_menu', 'add_anchorclass' );
 
-  
+
+require_once('wp_bootstrap_navwalker.php'); 
 
 
 /*-----------------------------------------------------------------------------------*/
 /*	Theme Setup
 /*-----------------------------------------------------------------------------------*/
-
+/*
 add_action( 'after_setup_theme', 'the_theme_setup' );
 function the_theme_setup()
 {
@@ -84,3 +90,4 @@ function the_theme_setup()
 		add_action( 'admin_notices', $c = create_function( '', 'echo "' . addcslashes( $msg, '"' ) . '";' ) );
 	}
 }
+*/

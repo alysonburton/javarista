@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/bootstrap-theme.min.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/css/style.css">
-        
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
        
 
         <?php wp_head(); ?>
@@ -21,36 +22,35 @@
 
     <body>
         <!-- navigation -->
-        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container">  
+        <nav class="navbar navbar-default" role="navigation" name="top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="<?php bloginfo('url');?>"><?php bloginfo( 'name' ); ?></a>
+              <a class="navbar-brand" href="<?php bloginfo('url')?>">
+                <?php bloginfo('name'); ?>
+              </a>
             </div>
-          
-          <?php wp_nav_menu( array( 
-            'theme_location'    => 'primary',
-            'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
-            'container_id'      => 'main-navbar-collapse',
-            'menu_class'        => 'nav navbar-nav navbar-right',
-            'menu_id'           => '',
-            'echo'              => true,
-            'fallback_cb'       => 'wp_page_menu',
-            'before'            => '',
-            'after'             => '',
-            'link_before'       => '',
-            'link_after'        => '',
-            'items_wrap'        => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-            'depth'             => 0,
-            'walker'            => ''
-            )); ?>
+
+            <?php
+                wp_nav_menu( array(
+                    'menu'              => 'primary',
+                    'theme_location'    => 'primary',
+                    'depth'             => 2,
+                    'container'         => 'div',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'bs-example-navbar-collapse-1',
+                    'menu_class'        => 'nav navbar-nav navbar-right',
+                    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                    'walker'            => new wp_bootstrap_navwalker())
+                );
+            ?>         
+
           </div>
         </nav>
-        <!-- end of navigation -->
          
