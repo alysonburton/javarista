@@ -11,7 +11,7 @@ Template Name: Home Page
 		<div id="noise" class="overlay noise"></div>
 		<div class="intro">
 			<h1>Javarista</h1>
-			<h2>Javascript tutorials for designers</h2>
+			<h2>Practical Javascript tutorials</h2>
 		</div>
 		<div id="controls" class="controls" style="display:none"></div>
     </div>

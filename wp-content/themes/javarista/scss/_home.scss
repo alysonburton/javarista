@@ -1,8 +1,12 @@
-#home {
-	h2{
+.intro {
+	h1{
 		font-size: 30px;
 		font-weight: 400;
+                color: white;
 	}
+        h2 {
+            color: $redOrange;
+        }
 }
 
 .controls{

@@ -34,9 +34,12 @@ a:hover {
 p {
   color: white; }
 
-#home h2 {
+.intro h1 {
   font-size: 30px;
-  font-weight: 400; }
+  font-weight: 400;
+  color: white; }
+.intro h2 {
+  color: #F7551B; }
 
 .controls {
   -webkit-font-smoothing: subpixel-antialiased;
