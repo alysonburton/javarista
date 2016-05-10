@@ -3,24 +3,36 @@
 Version: 1
 Author: Alyson and Jin-hee
 */
+.crayon-main {
+  padding: 10px !important; }
+
+.container-fluid {
+  padding: 35px; }
+
+h1 h2 h3 h4 h5 h5 h6 p {
+  font-family: roboto; }
+
 h1 {
-  font-family: roboto;
   color: #F7551B;
   font-weight: 100;
   font-size: 46px; }
 
 h4 {
-  font-family: roboto;
   color: #FF8800;
   font-weight: 400;
   font-size: 15px; }
 
 body {
-  font-family: roboto;
   background-color: #292228; }
+
+a {
+  color: #880064; }
 
 a:hover {
   color: #F7551B; }
+
+p {
+  color: white; }
 
 #home h2 {
   font-size: 30px;

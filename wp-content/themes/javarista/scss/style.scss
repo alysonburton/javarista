@@ -10,26 +10,39 @@ $orange: #FF8800;
 $redOrange: #F7551B;
 $purple: #880064;
 
-h1{
+.crayon-main {
+	padding: 10px !important;
+}
+.container-fluid {
+	padding: 35px;
+}
+h1 h2 h3 h4 h5 h5 h6 p {
 	font-family: roboto;
+}
+
+h1{
 	color: $redOrange;
 	font-weight: 100;
 	font-size: 46px;
 }
 
 h4 {
-	font-family: roboto;
 	color: $orange;
 	font-weight: 400;
 	font-size: 15px;
 }
+
 body {
-	font-family: roboto;
 	background-color: $dark;
 }
-
+a {
+	color: $purple;
+}
 a:hover {
 	color: $redOrange;
+}
+p{
+	color:white;
 }
 
 @import 'home';
