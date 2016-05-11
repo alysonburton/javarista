@@ -2,7 +2,7 @@
 	h1{
 		font-size: 30px;
 		font-weight: 400;
-                color: white;
+        color: white;
 	}
         h2 {
             color: $redOrange;
@@ -80,4 +80,14 @@
             color: $orange;
         }
     }
+}
+
+.item{
+    width:200px;
+}
+.item .format-image{
+    width:400px;
+}
+.item .format-aside{
+    width:600px;
 }

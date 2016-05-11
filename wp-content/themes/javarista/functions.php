@@ -17,7 +17,13 @@ add_action( 'init', 'register_my_menu' );
 add_filter( 'wp_nav_menu', 'add_anchorclass' );
 
 
-require_once('wp_bootstrap_navwalker.php'); 
+require_once('wp_bootstrap_navwalker.php');
+
+
+function my_masonry(){
+	wp_enqueue_script('masonry');
+}
+add_action('wp_enqueue_scripts', 'my_masonry');
 
 
 /*-----------------------------------------------------------------------------------*/

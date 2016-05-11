@@ -113,6 +113,15 @@ a.vc_btn3.vc_btn3-style-custom {
     #tuts a :hover {
       color: #FF8800; }
 
+.item {
+  width: 200px; }
+
+.item .format-image {
+  width: 400px; }
+
+.item .format-aside {
+  width: 600px; }
+
 .navbar-default {
   background-color: #292228;
   background: #292228;
