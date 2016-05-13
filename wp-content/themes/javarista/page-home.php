@@ -48,9 +48,9 @@ Template Name: Home Page
 		?>
 
 	    <!-- The Loop -->
-	    <div id="container" class="js-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+	    <div id="container" class="js-masonry center-block tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
 	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
-	    	<div class="item">
+	    	<div class="item center-block col-md-4">
 	        	<?php the_post_thumbnail(); ?> 
       		</div>
 
@@ -61,8 +61,9 @@ Template Name: Home Page
 	<!-- <?php endwhile; else: ?>
 	    <p>Sorry, no pages matched your criteria.</p>
 	<?php endif; ?> -->
-
-	<a class="smoothScroll" href="#top"><p>Go Back to Top</p></a>
+	<div class="col-xs-12">
+		<a class="smoothScroll" href="#top"><p>Go Back to Top</p></a>
+	</div>
 </div>
 
 

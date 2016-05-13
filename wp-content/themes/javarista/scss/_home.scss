@@ -82,12 +82,16 @@
     }
 }
 
-.item{
-    width:200px;
+.tut-masonry {
+    width: 80%;
+    padding-top: 30px;
 }
-.item .format-image{
-    width:400px;
+
+.item {
+    width: 200px;
+    margin-bottom: 30px;
 }
-.item .format-aside{
-    width:600px;
+
+.item:nth-child(3n+1) {
+    clear: both;
 }

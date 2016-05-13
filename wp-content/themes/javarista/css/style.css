@@ -113,14 +113,16 @@ a.vc_btn3.vc_btn3-style-custom {
     #tuts a :hover {
       color: #FF8800; }
 
+.tut-masonry {
+  width: 80%;
+  padding-top: 30px; }
+
 .item {
-  width: 200px; }
+  width: 200px;
+  margin-bottom: 30px; }
 
-.item .format-image {
-  width: 400px; }
-
-.item .format-aside {
-  width: 600px; }
+.item:nth-child(3n+1) {
+  clear: both; }
 
 .navbar-default {
   background-color: #292228;
