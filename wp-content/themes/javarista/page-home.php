@@ -51,7 +51,10 @@ Template Name: Home Page
 	    <div id="container" class="js-masonry center-block tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
 	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
 	    	<div class="item center-block col-md-4">
-	        	<?php the_post_thumbnail(); ?> 
+				<a href="<?php the_permalink()?>">
+	        		<?php the_post_thumbnail(); ?> 
+	        		<p><?php the_title(); ?></p>
+	        	</a>
       		</div>
 
 	    <!-- End The Loop -->
