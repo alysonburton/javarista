@@ -23,13 +23,14 @@ h1 h2 h3 h4 h5 h5 h6 p a {
 h1{
 	color: $redOrange;
 	font-weight: 100;
-	font-size: 46px;
+	font-size: 75px;
 }
 
 h4 {
 	color: $orange;
 	font-weight: 400;
 	font-size: 15px;
+	line-height: 1.6;
 }
 
 body {
