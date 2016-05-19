@@ -9,7 +9,7 @@ Author: Alyson and Jin-hee
 .container-fluid {
   padding: 35px; }
 
-h1 h2 h3 h4 h5 h5 h6 p a {
+h1, h2, h3, h4, h5, h6, p, a {
   font-family: roboto; }
 
 h1 {
@@ -106,6 +106,9 @@ a.vc_btn3.vc_btn3-style-custom {
     font-weight: 100;
     font-size: 100px;
     color: #FF8800; }
+  #tuts h4 {
+    color: #FDC503;
+    padding-top: 50px; }
   #tuts p {
     font-weight: 100;
     color: white; }
@@ -131,7 +134,7 @@ a.vc_btn3.vc_btn3-style-custom {
 .item {
   width: 33.33%;
   min-width: 230px;
-  margin: 0 auto 30px; }
+  margin: 15px auto 40px; }
 
 .navbar-default {
   background-color: #292228;

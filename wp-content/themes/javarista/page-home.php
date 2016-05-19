@@ -36,18 +36,71 @@ Template Name: Home Page
 
 <div id="tuts"> <!-- tut grid goes here, add isotope -->
 	<a name="tutorials"><h1 class="tuts"><?php echo get_post_field('post_title', 30); ?></h1></a>
-
+		<!-- Easy level Tut -->
 		<?php
 		    $args = array(
-		     'post_type' => 'tutorial'
+		     'post_type' => 'tutorial',
+		     'level' => 'Tall',
+		     'order' => 'ASC'
 		    );
 		    $query = new WP_Query( $args );
 		?>
 
 	    <!-- The Loop -->
 	    <div id="container" class="js-masonry tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+	    	<div class="col-sm-12"><h4>- TALL -</h4></div>
 	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
-	    	<div class="item col-xs-12">
+	    	<div class="item col-sm-12">
+				<a href="<?php the_permalink()?>">
+	        		<?php the_post_thumbnail(); ?> 
+	        		<p><?php the_title(); ?></p>
+	        	</a>
+      		</div>
+
+	    <!-- End The Loop -->
+			<?php endwhile; endif; wp_reset_postdata(); ?>
+		</div>
+
+		<!-- Medium level Tut -->
+		<?php
+		    $args = array(
+		     'post_type' => 'tutorial',
+		     'level' => 'grande',
+		     'order' => 'ASC'
+		    );
+		    $query = new WP_Query( $args );
+		?>
+
+	    <!-- The Loop -->
+	    <div id="container" class="js-masonry tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+	    	<div class="col-sm-12"><h4>- GRANDE -</h4></div>
+	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
+	    	<div class="item col-sm-12">
+				<a href="<?php the_permalink()?>">
+	        		<?php the_post_thumbnail(); ?> 
+	        		<p><?php the_title(); ?></p>
+	        	</a>
+      		</div>
+
+	    <!-- End The Loop -->
+			<?php endwhile; endif; wp_reset_postdata(); ?>
+		</div>
+
+		<!-- Hard level Tut -->
+		<?php
+		    $args = array(
+		     'post_type' => 'tutorial',
+		     'level' => 'venti',
+		     'order' => 'ASC'
+		    );
+		    $query = new WP_Query( $args );
+		?>
+
+	    <!-- The Loop -->
+	    <div id="container" class="js-masonry tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+	    	<div class="col-sm-12"><h4>- VENTI -</h4></div>
+	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
+	    	<div class="item col-sm-12">
 				<a href="<?php the_permalink()?>">
 	        		<?php the_post_thumbnail(); ?> 
 	        		<p><?php the_title(); ?></p>

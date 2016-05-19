@@ -70,6 +70,10 @@
         font-size: 100px;
         color: $orange;
     }
+    h4 {
+        color: $yellow;
+        padding-top: 50px;
+    }
     p {
         font-weight: 100;
         color: white;
@@ -108,5 +112,5 @@
 .item {
     width: 33.33%;
     min-width: 230px;
-    margin: 0 auto 30px;
+    margin: 15px auto 40px;
 }
