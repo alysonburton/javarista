@@ -231,7 +231,10 @@ a.vc_btn3.vc_btn3-style-custom {
 
 .panel {
   padding: 0;
-  background-color: rgba(255, 255, 255, 0.6); }
+  background-color: rgba(255, 255, 255, 0.1); }
+  .panel p {
+    font-weight: 100;
+    color: white; }
 
 .panel-default,
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
@@ -249,10 +252,6 @@ a.vc_btn3.vc_btn3-style-custom {
   font-weight: 100;
   color: white;
   margin-bottom: 0; }
-
-.panel p {
-  font-weight: 100;
-  color: #292228; }
 
 .contact-title {
   padding-top: 50px; }
