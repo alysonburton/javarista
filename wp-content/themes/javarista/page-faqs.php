@@ -32,7 +32,7 @@ Template Name: FAQ Page
 	    </div>
 	    <div id="c<?php echo $i;?>" class="panel-collapse collapse <?php echo ($i == 1)? ' in':'';?>" role="tabpanel" aria-labelledby="headingOne">
 	      <div class="panel-body">
-	        <?php echo $faq['answer'];?>
+	        <p><?php echo $faq['answer'];?></p>
 	      </div>
 	    </div>
 	</div>

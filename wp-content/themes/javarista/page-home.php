@@ -36,9 +36,6 @@ Template Name: Home Page
 
 <div id="tuts"> <!-- tut grid goes here, add isotope -->
 	<a name="tutorials"><h1 class="tuts"><?php echo get_post_field('post_title', 30); ?></h1></a>
-			
-	<!-- <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
- 		<?php get_post_field('post_content', 30); ?> -->
 
 		<?php
 		    $args = array(
@@ -48,9 +45,9 @@ Template Name: Home Page
 		?>
 
 	    <!-- The Loop -->
-	    <div id="container" class="js-masonry center-block tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+	    <div id="container" class="js-masonry tut-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
 	    	<?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
-	    	<div class="item center-block col-md-4">
+	    	<div class="item col-xs-12">
 				<a href="<?php the_permalink()?>">
 	        		<?php the_post_thumbnail(); ?> 
 	        		<p><?php the_title(); ?></p>
@@ -61,9 +58,6 @@ Template Name: Home Page
 			<?php endwhile; endif; wp_reset_postdata(); ?>
 		</div>
 
-	<!-- <?php endwhile; else: ?>
-	    <p>Sorry, no pages matched your criteria.</p>
-	<?php endif; ?> -->
 	<div class="col-xs-12">
 		<a class="smoothScroll" href="#top"><p>Go Back to Top</p></a>
 	</div>

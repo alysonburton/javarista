@@ -115,15 +115,23 @@ a.vc_btn3.vc_btn3-style-custom {
       color: #FF8800; }
 
 .tut-masonry {
-  width: 80%;
-  padding-top: 30px; }
+  width: 850px;
+  padding-top: 30px;
+  margin: 0 auto; }
 
+@media only screen and (max-width: 767px) {
+  .tut-masonry {
+    width: 80%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .tut-masonry {
+    width: 700px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tut-masonry {
+    width: 800px; } }
 .item {
-  width: 200px;
-  margin-bottom: 30px; }
-
-.item:nth-child(3n+1) {
-  clear: both; }
+  width: 33.33%;
+  min-width: 230px;
+  margin: 0 auto 30px; }
 
 .navbar-default {
   background-color: #292228;

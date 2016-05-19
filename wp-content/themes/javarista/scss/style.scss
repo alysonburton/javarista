@@ -13,9 +13,11 @@ $purple: #880064;
 .crayon-main {
 	padding: 10px !important;
 }
+
 .container-fluid {
 	padding: 35px;
 }
+
 h1 h2 h3 h4 h5 h5 h6 p a {
 	font-family: roboto;
 }
@@ -36,28 +38,36 @@ h4 {
 body {
 	background-color: $dark;
 }
+
 a {
 	color: $purple;
 }
+
 a:hover {
 	color: $redOrange;
 }
+
 p{
 	color:white;
 }
-.vc_btn3-container.button.vc_btn3-center{
+
+.vc_btn3-container.button.vc_btn3-center {
 	background-color:$redOrange;
 }
+
 .vc_btn3-container.button.vc_btn3-center:hover {
 	background-color: $orange!important;
-
 }
-a.vc_general.vc_btn3.vc_btn3-size-lg.vc_btn3-shape-square.vc_btn3-style-custom{
+
+a.vc_general.vc_btn3.vc_btn3-size-lg.vc_btn3-shape-square.vc_btn3-style-custom {
 	background-color: transparent!important;
 	width: 100%;
 }
+
 a.vc_btn3.vc_btn3-style-custom {
-    background-image: none!important;}
+    background-image: none!important;
+}
+
 @import 'home';
 @import 'about';
 @import 'tuts';
